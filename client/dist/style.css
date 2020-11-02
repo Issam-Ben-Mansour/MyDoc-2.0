@@ -1,0 +1,154 @@
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/619974.jpg");
+  background-size: cover; 
+  font-family:sans-serif;
+}
+
+#forme{
+  width:300px;
+  height:350px;
+  background-color:#fff;
+  position:absolute;
+  top:100%;
+  left:100%;
+  margin-left:-150px;
+  margin-top:-175px;
+  
+  border-radius:5px;
+  padding:5px;
+}
+input{       
+  border:2px solid #EEE;
+  border-radius:5px;
+  background-color:#EEE;
+  padding:10px;
+  margin:0 auto;
+  margin-top:5px;
+  font-size:18px;
+  font-family:sans-serif;
+  width:270px;
+  outline:none;
+}
+input[type="submit"]{
+  border:0;
+  margin:0 auto;
+  margin-top:15px;
+  background:#8594c7;
+  color:#FFF;
+  font-size:18px;
+  padding:10px;
+  border-radius:5px;
+  width:270px;
+  outline:none;
+  cursor:pointer;
+}
+button {
+  border:0;
+  margin:0 auto;
+  margin-top:15px;
+  background:#8594c7;
+  color:#FFF;
+  font-size:30px;
+  padding:15px;
+  border-radius:8px;
+  width:300px;
+  outline:none;
+  cursor:pointer;
+}
+  
+.del{
+    border:0;
+    margin:0 auto;
+    margin-top:15px;
+    background:#8594c7;
+    color:#FFF;
+    font-size:15px;
+    padding:5px;
+    border-radius:8px;
+    width:100px;
+    outline:none;
+    cursor:pointer;
+  }
+
+.tit{
+  text-align: center;
+  font-size: 500%;
+  font-style: italic;
+}
+p{
+  border:2px solid #EEE;
+    border-radius:5px;
+    background-color:#EEE;
+    padding:10px;
+    margin:0 auto;
+    margin-top:5px;
+    font-size:18px;
+    width:400px;
+    outline:none;
+}
+.navbar {
+  background-color:#8594c7;
+  margin: 0px;
+  padding: 7px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Francois One';
+}
+.nav {
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
+
+.nav-selected {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.3em;
+  cursor:pointer;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: 'Francois One';
+  color: #ffffff;
+}
+tbody{
+  display:inline-block;
+  vertical-align: top; 
+  position: absolute;
+  left: 950px;
+}
+th {padding-top:22px; text-shadow: 1px 1px 1px black; background:#8594c7;}
+	
+td {border-top:1px solid black; border-right:1px solid #e0e0e0;}
+	
+.prop{
+  border:2px solid #EEE;
+  border-radius:5px;
+  background-color:#EEE;
+  padding:10px;
+  margin:0 auto;
+  margin-top:5px;
+  font-size:18px;
+  width:400px;
+  outline:none;
+}
+
+.repo{
+  border:2px solid #EEE;
+  border-radius:5px;
+  background-color:#EEE;
+  padding:10px;
+  margin:0 auto;
+  margin-top:5px;
+  font-size:18px;
+  width:400px;
+  outline:none;
+}
